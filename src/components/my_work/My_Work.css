@@ -1,5 +1,4 @@
 .myWork-container img:hover {
-    border: 4px solid #d4da20dc ;
     border-radius: 10px;
     transform: scale(1.10);
     transition: 0.3s;

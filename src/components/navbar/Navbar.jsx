@@ -21,38 +21,38 @@ function Navbar() {
 
   return (
     <div className='navbar font-Lora flex justify-between items-center my-5 max-[448px]:mx-4 mx-16'>
-      <img className='w-14' src={Logo} alt="logo" />
-      <RiMenuUnfold4Fill onClick={openMenu} className='nev-mob-open text-4xl' />
-      <ul ref={menuRef} className='nav-menu ms-10 flex items-center gap-7 text-lg font-medium cursor-pointer'>
-        <li onClick={closeMenu} className='nev-mob-close m-3 md:block flex justify-between pt-4 lg:hidden'> 
+      <img className='w-28' src={Logo} alt="logo" />
+      <RiMenuUnfold4Fill onClick={openMenu} className='text-4xl nev-mob-open' />
+      <ul ref={menuRef} className='flex items-center text-lg font-medium cursor-pointer nav-menu ms-10 gap-7'>
+        <li onClick={closeMenu} className='flex justify-between pt-4 m-3 nev-mob-close md:block lg:hidden'> 
           <img className='w-12' src={Logo2} alt="logo" />
           <RiCloseLargeFill className='text-4xl ms-40' />
         </li>
-        <li className='flex cursor-pointer hover:text-rose-700' onClick={closeMenu}>
+        <li className='flex cursor-pointer hover:text-green-700' onClick={closeMenu}>
           <AnchorLink className='anchor-link' href='#home'>
             <p onClick={() => setMenu("home")}>Home</p>
           </AnchorLink>
           {menu === "home" && <LuDot className='mt-3' />}
         </li>
-        <li className='flex cursor-pointer hover:text-rose-700' onClick={closeMenu}>
+        <li className='flex cursor-pointer hover:text-green-700' onClick={closeMenu}>
           <AnchorLink className='anchor-link' offset={50} href='#about'>
             <p onClick={() => setMenu("about")}>About Me</p>
           </AnchorLink>
           {menu === "about" && <LuDot className='mt-3' />}
         </li>
-        <li className='flex cursor-pointer hover:text-rose-700' onClick={closeMenu}>
+        <li className='flex cursor-pointer hover:text-green-700' onClick={closeMenu}>
           <AnchorLink className='anchor-link' offset={50} href='#services'>
             <p onClick={() => setMenu("services")}>Services</p>
           </AnchorLink>
           {menu === "services" && <LuDot className='mt-3' />}
         </li>
-        <li className='flex cursor-pointer hover:text-rose-700' onClick={closeMenu}>
+        <li className='flex cursor-pointer hover:text-green-700' onClick={closeMenu}>
           <AnchorLink className='anchor-link' offset={50} href='#work'>
             <p onClick={() => setMenu("portfolio")}>Portfolio</p>
           </AnchorLink>
           {menu === "portfolio" && <LuDot className='mt-3' />}
         </li>
-        <li className='flex cursor-pointer hover:text-rose-700' onClick={closeMenu}>
+        <li className='flex cursor-pointer hover:text-green-700' onClick={closeMenu}>
           <AnchorLink className='anchor-link' offset={50} href='#contact'>
             <p onClick={() => setMenu("contact")}>Contact</p>
           </AnchorLink>

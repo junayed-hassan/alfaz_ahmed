@@ -1,34 +1,27 @@
 const services_Data = [
     {
         s_no: "01",
-        s_name: "Web Development",
-        s_desc: "Building websites with modern tools and efficient coding practices."
+        s_name: " Logo Design",
+        s_desc: "A logo is a visual symbol or mark that represents a company, brand, product, or service."
     },
     {
         s_no: "02",
-        s_name: "Responsive Web Design",
-        s_desc: "Creating mobile-friendly designs that adapt seamlessly to all devices."
+        s_name: "Brand Style Guides",
+        s_desc: "A Brand Style Guide is a comprehensive document that outlines the visual and verbal elements of a brand."
     },
     {
         s_no: "03",
-        s_name: "ECommerce Development",
-        s_desc: "Developing secure, user-friendly online stores to boost your sales."
+        s_name: "Business Cards & Stationery",
+        s_desc: "Business cards and stationery are essential branding tools that represent a company’s identity in professional settings."
     },
-    {
-        s_no: "04",
-        s_name: "Front-End Development",
-        s_desc: "Designing visually appealing and interactive user interfaces for websites."
-    },
-    {
-        s_no: "05",
-        s_name: "Website Updates and Maintenance",
-        s_desc: "Keeping your website updated, secure, and running smoothly always."
-    },
-    {
-        s_no: "06",
-        s_name: "Custom Website Creation",
-        s_desc: "Building tailored websites to meet specific business goals and needs."
-    }
+
 ];
 
 export default services_Data;
+
+
+// Logo & Brand Identity
+
+// Logo Design
+// Brand Style Guides
+// Business Cards & Stationery

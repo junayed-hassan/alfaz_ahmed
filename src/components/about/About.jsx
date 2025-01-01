@@ -35,7 +35,7 @@ function About() {
               </p>
               <hr
                 className="outline-none border-none w-[50%] h-3 max-[448px]:h-1 rounded-[50px] bg-gradient-to-r bg-[#10bf62]"
-                style={{ width: "50%" }}
+                style={{ width: "67%" }}
               />
             </div>
             <div className="transition-all ease-linear duration-300 hover:scale-105 flex items-center gap-5 max-[320px]:gap-2">
@@ -44,7 +44,7 @@ function About() {
               </p>
               <hr
                 className="outline-none border-none w-[50%] h-3 max-[448px]:h-1 rounded-[50px] bg-gradient-to-r bg-[#10bf62]"
-                style={{ width: "70%" }}
+                style={{ width: "67%" }}
               />
             </div>
             <div className="transition-all ease-linear duration-300 hover:scale-105 flex items-center gap-5 max-[320px]:gap-2">
@@ -53,7 +53,7 @@ function About() {
               </p>
               <hr
                 className="outline-none border-none w-[50%] h-3 max-[448px]:h-1 rounded-[50px] bg-gradient-to-r bg-[#10bf62]"
-                style={{ width: "60%" }}
+                style={{ width: "67%" }}
               />
             </div>
             <div className="transition-all ease-linear duration-300 hover:scale-105 flex items-center gap-5 max-[320px]:gap-2">
@@ -62,7 +62,7 @@ function About() {
               </p>
               <hr
                 className="outline-none border-none w-[50%] h-3 max-[448px]:h-1 rounded-[50px] bg-gradient-to-r bg-[#10bf62]"
-                style={{ width: "50%" }}
+                style={{ width: "67%" }}
               />
             </div>
           </div>

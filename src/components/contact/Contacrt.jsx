@@ -75,7 +75,7 @@ function Contact() {
       </h1>
       <div className="contact-section lg:flex md:block xl:gap-28 lg:gap-2">
         <div className="contact-left flex flex-col lg:gap-7 md:gap-4 max-[448px]:gap-3 md:mb-8 max-[448px]:p-5">
-          <h2 className="max-[448px]:text-3xl lg:text-6xl md:text-5xl font-bold bg-clip-text text-transparent text-[#10bf62] whitespace-nowrap">
+          <h2 className="max-[448px]:text-3xl lg:text-6xl md:text-5xl font-bold text-[#10bf62] whitespace-nowrap">
             Let's talk
           </h2>
           <p className="max-[448px]:text-base text-base	 leading-8 max-w-[530px] text-justify">

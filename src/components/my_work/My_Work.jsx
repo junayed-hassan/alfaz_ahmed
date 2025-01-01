@@ -14,7 +14,7 @@ function My_Work() {
             })}
         </div>
             <a className='block' href="https://www.behance.net/mdalfazahmed">
-        <div className='show-more flex gap-3.5 rounded-[50px] py-5 px-10 border-2 border-solid	divide-black text-xl font-medium cursor-pointer max-[448px]:hidden'>
+        <div className='show-more flex gap-3.5 rounded-[50px] py-5 px-10 border-2 border-solid	divide-black text-xl font-medium cursor-pointer'>
             <p>Show More</p>
             <FaArrowRight className='mt-1.5'/>
         </div>

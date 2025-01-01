@@ -51,6 +51,7 @@ function About() {
               <p className="min-w-[150px] max-[448px]:min-w-[70px] lg:text-2xl md:text-[22px] max-[448px]:text-xs font-medium">
                 InDesign
               </p>
+
               <hr
                 className="outline-none border-none w-[50%] h-3 max-[448px]:h-1 rounded-[50px] bg-gradient-to-r bg-[#10bf62]"
                 style={{ width: "67%" }}

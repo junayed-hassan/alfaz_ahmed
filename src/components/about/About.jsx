@@ -1,4 +1,4 @@
-import aboutImg from "../../assets/user_icon1.png";
+import aboutImg from "../../assets/alfazahmed.jpg";
 import "./About.css";
 function About() {
   return (

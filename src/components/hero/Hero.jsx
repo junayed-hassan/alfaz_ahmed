@@ -1,6 +1,6 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Hero.css";
-import img from "../../assets/user_icon1.png";
+import img from "../../assets/alfazahmed.jpg";
 
 function Hero() {
   return (
@@ -9,7 +9,7 @@ function Hero() {
       className="hero flex items-center gap-6  max-[448px]:gap-3 flex-col font-Lora mt-20 max-[448px]:mt-10"
     >
       <img
-        className="rounded-[50px] w-56  max-[448px]:w-28"
+        className="rounded-[10px] w-56  max-[448px]:w-28"
         src={img}
         alt="img"
       />
